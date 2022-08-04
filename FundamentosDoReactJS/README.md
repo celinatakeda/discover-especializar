@@ -36,3 +36,24 @@ yarn dev
 Após executar o comando acima, abra o seu navegador e acesse o endereço:
 
 http://localhost:3000/
+
+O arquivo index.html é o principal arquivo do nosso projeto, ele importará o arquivo main.jsx e fará com que o conteúdo seja exibido em nosso navegador.
+
+O arquivo main.jsx terá a função de renderizar o componente <App /> e inserir através da DOM do nosso HTML pelo id root.
+
+## JSX
+É uma extensão do JavaScript bem semelhante ao HTML. Basicamente ele é uma sintaxe que o ReactJS utiliza para que possamos criar as nossas interfaces de forma declarativa.
+
+O JSX utiliza funções dentro dos arquivos e o retorno dessas funções retornam tags HTML.
+
+Arquivo de extensão jsx tem uma função e um retorno, dentro do retorno da função vai ser um conteúdo html e esse conteúdo é o que vai ser mostrado na tela.
+
+## Fragment
+Um padrão comum no React é que um componente pode retornar múltiplos elementos. Os Fragmentos (Fragment) permitem agrupar uma lista de filhos sem adicionar nós extras ao DOM.
+
+
+
+
+
+
+
