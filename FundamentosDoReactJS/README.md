@@ -51,9 +51,11 @@ Arquivo de extensão jsx tem uma função e um retorno, dentro do retorno da fun
 ## Fragment
 Um padrão comum no React é que um componente pode retornar múltiplos elementos. Os Fragmentos (Fragment) permitem agrupar uma lista de filhos sem adicionar nós extras ao DOM.
 
+## Componentes
+Componente nada mais do que um bloco de código reutilizável e independente. 
 
-
-
+## Propriedades
+As propriedades dentro de um componente faz com que você possa passar valores diferentes para cada um deles.
 
 
 
