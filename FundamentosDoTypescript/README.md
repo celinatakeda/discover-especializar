@@ -65,6 +65,7 @@ printUserId("101");
 
 // Dessa forma, podemos passar tanto number quanto string
 
+---
 ## Generics
 O generic no TypeScript nos permite reutilizar uma determinada implementação de código, de forma tipada. Para representar um generic, nós declaramos ele dessa forma <T> (podendo ser utilizado qualquer outra letra, existem as convenções que podemos seguir:
 
@@ -91,6 +92,7 @@ newState.get();
 newState.set("João");
 newState.set(123);
 
+---
 ## Type Assertions
 Asserção de tipo normalmente é utilizado quando o TypeScript não sabe qual é a tipagem em um determinado objeto.
 
