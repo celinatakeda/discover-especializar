@@ -24,6 +24,22 @@ Inferência de tipos
 
 O TypeScript reconhece automaticamente o tipo da variável ao passar algum valor para ela.
 
+Tipos primitivos
+
+Esses são os tipos primitivos que podemos utilizar no TypeScript: boolean, number, string.
+
+## Matrizes
+Existem duas maneiras de tipar arrays no TypeScript, confira os exemplos:
+
+let numbers: number[];
+numbers = [1,2,3,4,5,6];
+
+let users: Array<string>;
+users = ['Rodrigo', 'João'];
+
+## Funções
+Uma função pode ter ou não um retorno, quando ela não tem um retorno ela é do tipo void
+
 
 ## Links Úteis
 https://www.typescriptlang.org/
