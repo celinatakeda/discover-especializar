@@ -16,15 +16,14 @@ O TypeScript nos ajuda a identificar cada tipo de variável ao invocá-las.
 ## Tipagem explícita
 Na tipagem explícita nós especificamos o qual será o tipo de cada variável.
 
-´´´
 Any
 
 Ao declarar uma variável no TypeScript o seu tipo por padrão será any. Mas devemos tomar um certo cuidado com essa tipagem que ela pode ser perigosa ao decorrer do nosso projeto, não é muito recomendada a sua utilização.
-´´´
-´´´
+
 Inferência de tipos
+
 O TypeScript reconhece automaticamente o tipo da variável ao passar algum valor para ela.
-´´´
+
 
 ## Links Úteis
 https://www.typescriptlang.org/
