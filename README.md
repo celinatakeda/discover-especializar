@@ -7,4 +7,4 @@ Conhecendo o superset TypeScript que facilita o desenvolvimento usando técnicas
 
 Avançando no CSS criando animações e no SQL trabalhando com técnicas avançadas como JOIN e manipulação de tabelas na linha de comando.
 
-Por fim descobrindo ferramentas e técnicas dentro do GitHub para trabalharmos em equipe
+Por fim descobrindo ferramentas e técnicas dentro do GitHub para trabalharmos em equipe.
