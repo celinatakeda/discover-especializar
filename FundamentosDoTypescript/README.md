@@ -132,8 +132,8 @@ Resultado do log:
 [LOG]: "O eixo y é: 50"
 ```
 
+## Intersecção de tipos
 ```
-Intersecção de tipos
 A intersecção de tipos como o próprio nome já diz, podemos unir dois tipos e usar as suas propriedades dentro de um objeto.
 
 Segue o exemplo abaixo:
@@ -157,9 +157,10 @@ let info: PlayerInfo = {
     level: 50
 }
 
+
 ```
+## Interface
 ```
-Interface
 Outra maneira de criar tipagens no TypeScript é utilizando a interface .
 
 Segue o exemplo:
