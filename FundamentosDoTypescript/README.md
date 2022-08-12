@@ -1,19 +1,26 @@
 ## O que é o TypeScript?
+```
 O TypeScript foi criado pela Microsoft para trazer um superset de tipagens para o JavaScript.
 
 A diferença entre o JavaScript e TypeScript é a sua tipagem que no JS não é obrigatório, já no TS é obrigatório, mas nem pra todos os casos. Algumas vantagens de utilizar o TS é que a sua adoção pode ocorrer de forma gradual em um projeto JavaScript.
 
+```
 ## Porquê utilizar TypeScript?
+```
 A maior vantagem de usar o TypeScript além de aumentar a nossa produtividade no dia a dia é ele reconhecer os erros durante o desenvolvimento, diferente do JavaScript que reconhecerá apenas quando o projeto é executado.
 
 Utilizamos o TypeScript Playground, ferramenta não necessita de nenhuma instalação e pode ser executada diretamente pelo seu navegador.
 
+```
 ## Compilação
+```
 O TypeScript é sempre compilado para JavaScript, mas normalmente não estamos vendo isso. Observe os exemplos:
 
 O TypeScript nos ajuda a identificar cada tipo de variável ao invocá-las.
+```
 
 ## Tipagem explícita
+```
 Na tipagem explícita nós especificamos o qual será o tipo de cada variável.
 
 Any
@@ -28,7 +35,9 @@ Tipos primitivos
 
 Esses são os tipos primitivos que podemos utilizar no TypeScript: boolean, number, string.
 
+```
 ## Matrizes
+```
 Existem duas maneiras de tipar arrays no TypeScript, confira os exemplos:
 
 let numbers: number[];
@@ -37,7 +46,10 @@ numbers = [1,2,3,4,5,6];
 let users: Array<string>;
 users = ['Rodrigo', 'João'];
 
+```
+
 ## Funções
+```
 Uma função pode ter ou não um retorno, quando ela não tem um retorno ela é do tipo void
 
 Dessa maneira, tipamos dessa forma no TypeScript:
@@ -52,8 +64,10 @@ function showMessages(message: string) {
 }
 
 console.log(showMessages("Oi, João"))
+```
 
 ## Union
+```
 O Operador Union, representado pelo pipe | nos permite adicionar mais de um tipo na variável. Vamos ao exemplo:
 
 function printUserId(id: number | string) {
@@ -64,6 +78,7 @@ printUserId(101);
 printUserId("101");
 
 // Dessa forma, podemos passar tanto number quanto string
+```
 
 ---
 ## Generics
@@ -93,9 +108,11 @@ let newState = useState();
 newState.get();
 newState.set("João");
 newState.set(123);
+
 ```
 ---
 ## Type Assertions
+```
 Asserção de tipo normalmente é utilizado quando o TypeScript não sabe qual é a tipagem em um determinado objeto.
 
 Para contornarmos isso, podemos criar um type informando quais são as propriedades desse objeto.
@@ -107,6 +124,7 @@ type UserResponse = {
 }
 
 let userResponse = {} as UserResponse;
+```
 
 ## Objetos
 ```
