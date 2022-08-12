@@ -181,9 +181,8 @@ function registerNewUser(newUser: User){
 }
 
 ```
-
+## Type e Interface
 ```
-Type e Interface
 O objetivo de ambos serve para definir tipagens no TypeScript. O type é mais recomendado por ser mais simples, fácil de lidar com tipos primitivos, por ser mais flexível. Já as interfaces são utilizadas normalmente em criação de libs, para aqueles que gostam da programação orientada a objetos.
 
 O exemplo abaixo mostra a diferença na sintaxe e união entre type e inteface:
@@ -213,8 +212,8 @@ interface IPayment {
 interface IAccount extends IUser, IPayment {}
 
 ```
+## tsconfig
 ```
-tsconfig
 É um arquivo de configuração do TypeScript, ele pode ser escrito tanto em formato de JavaScript quanto no formato JSON.
 
 Exemplo de um arquivo tsconfig.json :
