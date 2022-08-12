@@ -31,10 +31,13 @@ export function Home() {
     setStudents(prevState => [...prevState, newStudent]);
   }
 
+  const main_url = 'api.github.com';
+  
+  const url = `https://${main_url}/users/rodrigorgtic`;
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch('https://api.github.com/users/rodrigorgtic');
+      const response = await fetch(url);
       const data = await response.json() as ProfileResponse;
 
       setUser({
