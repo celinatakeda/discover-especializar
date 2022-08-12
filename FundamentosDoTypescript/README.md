@@ -66,9 +66,9 @@ printUserId("101");
 // Dessa forma, podemos passar tanto number quanto string
 
 ---
-
+## Generics
 ```markdown
-Generics
+
 O generic no TypeScript nos permite reutilizar uma determinada implementação de código, de forma tipada. Para representar um generic, nós declaramos ele dessa forma <T> (podendo ser utilizado qualquer outra letra, existem as convenções que podemos seguir:
 
 <S> → Representando State <T> → Representando Type <K> → Representando Key <V> → Representando Value <E> → Representando Element
@@ -108,8 +108,8 @@ type UserResponse = {
 
 let userResponse = {} as UserResponse;
 
-```
 ## Objetos
+```
 Nessa aula vamos aprendemos como criar tipagens utilizando objetos no TypeScript.
 
 Segue o exemplo:
