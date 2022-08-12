@@ -68,7 +68,7 @@ printUserId("101");
 ---
 
 ```markdown
-## Generics
+Generics
 O generic no TypeScript nos permite reutilizar uma determinada implementação de código, de forma tipada. Para representar um generic, nós declaramos ele dessa forma <T> (podendo ser utilizado qualquer outra letra, existem as convenções que podemos seguir:
 
 <S> → Representando State <T> → Representando Type <K> → Representando Key <V> → Representando Value <E> → Representando Element
@@ -108,6 +108,7 @@ type UserResponse = {
 
 let userResponse = {} as UserResponse;
 
+```
 ## Objetos
 Nessa aula vamos aprendemos como criar tipagens utilizando objetos no TypeScript.
 
@@ -129,7 +130,123 @@ Resultado do log:
 [LOG]: "O eixo x é: 101"
 ------------------------
 [LOG]: "O eixo y é: 50"
+```
 
+```
+Intersecção de tipos
+A intersecção de tipos como o próprio nome já diz, podemos unir dois tipos e usar as suas propriedades dentro de um objeto.
 
+Segue o exemplo abaixo:
+
+type User = {
+    id: number,
+    name: string,
+}
+
+type Char = {
+    nickname: string,
+    level: number
+}
+
+type PlayerInfo = User & Char;
+
+let info: PlayerInfo = {
+    id: 1,
+    name: 'João Inácio',
+    nickname: 'birobirobiro',
+    level: 50
+}
+
+```
+```
+Interface
+Outra maneira de criar tipagens no TypeScript é utilizando a interface .
+
+Segue o exemplo:
+
+interface User {
+    id: number
+    name: string,
+}
+
+let newUser: User = {
+    id: 1,
+    name: "João"
+}
+
+function registerNewUser(newUser: User){
+    newUser.id
+    newUser.name
+}
+
+```
+
+```
+Type e Interface
+O objetivo de ambos serve para definir tipagens no TypeScript. O type é mais recomendado por ser mais simples, fácil de lidar com tipos primitivos, por ser mais flexível. Já as interfaces são utilizadas normalmente em criação de libs, para aqueles que gostam da programação orientada a objetos.
+
+O exemplo abaixo mostra a diferença na sintaxe e união entre type e inteface:
+
+type TUser = {
+    id: number;
+    name: string;
+}
+
+type TPayment = {
+    method: string;
+}
+
+// Fazendo união com Type
+type TAccount = TUser & TPayment
+
+interface IUser {
+    id: number;
+    name: string;
+}
+
+interface IPayment {
+    method: string;
+}
+
+// Fazendo união com interfaces
+interface IAccount extends IUser, IPayment {}
+
+```
+```
+tsconfig
+É um arquivo de configuração do TypeScript, ele pode ser escrito tanto em formato de JavaScript quanto no formato JSON.
+
+Exemplo de um arquivo tsconfig.json :
+
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true
+  },
+  "files": [
+    "core.ts",
+    "sys.ts",
+    "types.ts",
+    "scanner.ts",
+    "parser.ts",
+    "utilities.ts",
+    "binder.ts",
+    "checker.ts",
+    "emitter.ts",
+    "program.ts",
+    "commandLineParser.ts",
+    "tsc.ts",
+    "diagnosticInformationMap.generated.ts"
+  ]
+}
+
+```
+
+```
+
+```
 ## Links Úteis
 https://www.typescriptlang.org/
