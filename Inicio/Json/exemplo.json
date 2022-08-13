@@ -1,0 +1,22 @@
+{
+  "nome": "Celina Takeda",
+  "cidade": "Sorocaba",
+  "Telefone": 9876543325,
+  "livros_favoritos": [
+      "neuromancer",
+      "codigo limpo",
+      "essencialismo"
+  ],
+  "hobbies": {
+      "semana": "patinação",
+      "fim_semana": {
+          "sabado": "cinema",
+          "domingo": "parque",
+          "outros": [
+              "caminhada",
+              "volei",
+              "netflix"
+          ]
+      }
+  }
+}
