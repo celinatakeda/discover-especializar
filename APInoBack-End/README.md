@@ -20,8 +20,6 @@ app.listen('3000')
 
 ```
 
-axios fazer requisições em apis
-
 
 
 
