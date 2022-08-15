@@ -4,7 +4,7 @@ npm init -y
 
 Uitilizando o framework express para aplicativos web métodos https.
 
-## instlando express
+## instalando express
 npm i express
 
 ## Rodar 
