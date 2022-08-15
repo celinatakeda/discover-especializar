@@ -11,13 +11,14 @@ npm i express
 node index.js
 
 ## Criado Server com express
-
+```
 const express = require('express')
 
 const app = express()
 
 app.listen('3000')
 
+```
 
 axios fazer requisições em apis
 
