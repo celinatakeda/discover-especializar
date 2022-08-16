@@ -1,7 +1,7 @@
 ## Axios 
-```
 Ferramenta para fazer requisições em apis.
 
+```
 Exemplo:
 
 import axios from "axios";

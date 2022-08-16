@@ -11,10 +11,9 @@ app.use(express.json())
 
 let users = [{
   id: 1,
-  temperature: "21.80 C",
-  humidity: "47.00",
-  sun: "0",
-
+  name: "Jakeliny Gracielly",
+  avatar: "https://avatars.githubusercontent.com/u/17316392?v=4",
+  city: "São Paulo"
 }]
 
 
@@ -38,9 +37,9 @@ app.route('/api').post((req, res) => {
   const lastId = users[users.length - 1].id
   users.push({
     id: lastId + 1,
-    temperature: req.body.temperature,
-    humidity: req.body.humidity,
-    sun: req.body.sun
+    name: req.body.name,
+    avatar: req.body.avatar,
+    city: req.body.city
   })
   res.json('Saved user')
 })
