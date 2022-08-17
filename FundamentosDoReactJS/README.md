@@ -18,6 +18,7 @@ O Vite tem todos os recursos do CRA, mas com melhores implementações e recurso
 Criando o primeiro projeto com o Vite
 
 npm create vite@latest reactapp --template react
+
 Após rodar o comando acima, será exibido a tela para escolher o framework que deseja utilizar.
 
 ## Executando projeto
@@ -28,7 +29,9 @@ Em seguida, será necessário baixar as dependências necessárias para a execu�
 Certifique-se que está na pasta do projeto e execute o comando desejado:
 
 yarn install
+
 npm install
+
 Após a instalação das dependências, execute o comando abaixo:
 
 Utilize o mesmo gerenciador do comando anterior
