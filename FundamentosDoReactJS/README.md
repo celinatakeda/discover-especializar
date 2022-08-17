@@ -28,17 +28,13 @@ Em seguida, será necessário baixar as dependências necessárias para a execu�
 
 Certifique-se que está na pasta do projeto e execute o comando desejado:
 
-yarn install
-
-npm install
+yarn install ou npm install
 
 Após a instalação das dependências, execute o comando abaixo:
 
 Utilize o mesmo gerenciador do comando anterior
 
-npm run dev
-
-yarn dev
+npm run dev ou yarn dev
 
 Após executar o comando acima, abra o seu navegador e acesse o endereço:
 
