@@ -8,7 +8,9 @@ Porque ele não tem uma opinião forte, ele não tem uma estrutura de pastas e r
 Ao criar um projeto utilizando o ReactJS podemos utilizar os seguintes boilerplates:
 
 Create React App (CRA)
+
 Vite
+
 Quais as vantagens de utilizar Vite ao invés do CRA?
 
 O Vite tem todos os recursos do CRA, mas com melhores implementações e recursos adicionais que o CRA não suporta, com isso o Vite acaba sendo até 10x mais rápido em comparação ao CRA.
