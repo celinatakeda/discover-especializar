@@ -4,7 +4,7 @@ Uma biblioteca JavaScript que tem o objetivo de criação de interfaces.
 ## Porque ReactJS é uma biblioteca e não um framework?
 Porque ele não tem uma opinião forte, ele não tem uma estrutura de pastas e regras que os frameworks em si tem. Ele te dá mais liberdade para criar as interfaces da maneira que preferir.
 
-## Criando o projeto:
+## Criando o projeto
 ```
 Ao criar um projeto utilizando o ReactJS podemos utilizar os seguintes boilerplates:
 
