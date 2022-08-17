@@ -37,7 +37,9 @@ Após a instalação das dependências, execute o comando abaixo:
 Utilize o mesmo gerenciador do comando anterior
 
 npm run dev
+
 yarn dev
+
 Após executar o comando acima, abra o seu navegador e acesse o endereço:
 
 http://localhost:3000/
@@ -70,6 +72,7 @@ O conteúdo da variável não deve ser modificado e sim substituído.
 
 ## KeyProp
 Em uma listagem, normalmente utilizamos o map() do JavaScript para trazer todos os dados dessa lista. No React, precisamos passar uma propriedade key para que esse dado nunca se repita e evitar que erros desse tipo aconteçam.
+
 Para evitar esse tipo de erro, passamos a prop Key.
 
 ## useEffect
