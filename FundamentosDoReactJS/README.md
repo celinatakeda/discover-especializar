@@ -21,6 +21,7 @@ Criando o primeiro projeto com o Vite
 npm create vite@latest reactapp --template react
 
 Após rodar o comando acima, será exibido a tela para escolher o framework que deseja utilizar.
+Selecione o react e a variant react
 
 ```
 
