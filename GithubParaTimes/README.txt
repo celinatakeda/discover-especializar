@@ -1,10 +1,7 @@
-O que é Github para times?
-
+## O que é Github para times?
 Descrição
 
 Vamos descobrir como usar o GitHub de forma colaborativa, as ferramentas e funções que facilitam a vida dos desenvolvedores quando estão trabalhando em time.
-
-
 
 ## Branches
 Descrição
