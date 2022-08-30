@@ -1,9 +1,9 @@
-##O que é Github para times?
+## O que é Github para times?
 Descrição
 
 Vamos descobrir como usar o GitHub de forma colaborativa, as ferramentas e funções que facilitam a vida dos desenvolvedores quando estão trabalhando em time.
 
-##Branches
+## Branches
 Descrição
 
 Pense que o código está guardado em uma caixinha dentro do repositório, podemos criar uma cópia dessa caixinha e colocar outros itens nessa nova caixinha. Pensando em código podemos "ramificar" o nosso projeto, criando linhas de commits com commits separados da linha principal, por exemplo se você vai criar uma feature nova e não quer fazer isso na branch principal que está conectada ao site que está no ar, você criar uma branch trabalhar nessa feature e quando quiser junta resse novo conteúdo na branch principal e consequentemente colocando no ar.
@@ -28,7 +28,7 @@ git push origin service
 origin => "repositorio"
 service => "branch"
 
-##Merge
+## Merge
 Descrição
 
 Merge é o comando do git para juntar os commits de uma branch com os commits de outra branch sempre respeitando a ordem cronologica desses commits
@@ -79,20 +79,3 @@ atualizar
 Descrição
 
 Vamos criar um pedido de merge para a branch principal.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
