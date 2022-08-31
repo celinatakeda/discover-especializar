@@ -33,10 +33,26 @@
       width: 200px;
     }
 
+    .line {
+      width: 100%;
+      background-color: blue;
+      height: 25px;
+      margin-bottom: 10px;
+
+      transition: width;
+      transition-duration: 1s;
+    }
+
+    body:hover .line {
+      width: 20px;
+      background-color: rgb(255, 0, 234);
+    }
+
   </style>
 
 </head>
 <body>
+  <div class="line"></div>
   <div class="box-red"></div>
   
 </body>
