@@ -39,6 +39,7 @@ git push "nome do repositório" main
 
 ## Apagar uma branch
 Descrição
+
 Podemos criar quantas branchs quisermos mas as vezes isso pode acabar deixando muita branch esquecida pra trás e nós confundir no momento de trocar de uma branch para outra, então existe momentos que é necessário apagar algumas branchs, vemos nessa aula o comando para realizar essa ação
 
 git branch -D "nome da branch" => apagou no computador
@@ -47,6 +48,7 @@ git push origin --delete "nome da branch" => apaga no github
 
 ## Atualizando as branchs
 Descrição
+
 Quando estamos trabalhando em time é comum outra pessoa criar branchs no repositório que logicamente não vão existir na sua maquina, e se em algum momento vc quiser executar um git checkout para entrar nessas branchs que não estão na sua maquina você vai precisar atualizar essas branchs com o comando git fetch, assim como quando uma branch é excluida do github você precisa atualizar as branchs na sua maquina com o comando git fetch -p para atualizar essas branchs
 
 git branch -a
@@ -56,10 +58,12 @@ git fetch -p => apaga a branch da minha máquina
 
 ## Configuração de branch padrão e proteção da main
 Descrição
+
 Imagine que o código que está no ar, o código que está funcionando perfeitamente está guardando em uma branch, precisamos aplicar algumas regras de segurança para proteger esse código e garantir que nada o afete enquanto os times trabalham em correções de bugs, features novas ou outras tarefas. Uma das principais coisas a seconfigurar é não permitir commits diretos na branch principal, obrigando quem vai trabalhar no código criar uma branch separada para isso e depois solicitar um merge
 
 Pull Request
 Descrição
+
 Pull Request (PR) é uma forma de você informar outras pessoas sobre as alterações das quais você commitou em uma branch, e agora é o momento de colocar essas alterações em outra branch.
 
 
