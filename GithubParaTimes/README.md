@@ -79,3 +79,21 @@ atualizar
 Descrição
 
 Vamos criar um pedido de merge para a branch principal.
+
+## Colaborando em projetos públicos
+Descrição
+O GitHub permite que qualquer pessoa possa colaborar em projetos públicos, criando uma grande comunidade global. Isso permite com que você possa contribuir com seus projetos favoritos ou qualquer outro projeto que queira.
+
+## Issues
+Descrição
+
+Issue no github é onde os usuários contribuem ou usuários finais da aplicação reportam os problemas/bugs encontrados. Trata-se da ideia de deixar comentários em projetos.
+
+## Projects
+Descrição
+
+Projeto no GitHub é uma ferramenta customizada de tabela de tarefas, com ela conseguimos fazer o gerenciamento de tarefas de um time, as tarefas podem ser issues e o assign (pessoa responsavel) é mostrada na tabela junto com a issue.
+
+
+
+
