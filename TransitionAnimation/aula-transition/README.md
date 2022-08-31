@@ -1,3 +1,7 @@
+# Transition e Animation
+Seremos apresentados(as) ao CSS transition e animation, duas propriedades CSS que podemos usar para animaçòes levando nosso CSS ao próximo nível
+
+
 ## O que é CSS transition?
 ```
 Descrição
