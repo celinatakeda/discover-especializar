@@ -31,6 +31,23 @@ easy-in-out - Início e fim lentos
 cubic-bezier(n,n,n,n) - Permite definir seus próprios valores em uma função cubic-bezier
 
 ```
+## Transition delay
+```
+Descrição
+transition-delay é uma propriedade CSS que permite atrasar o inicio de uma transição em uma escala de segundos
+
+```
+
+## Transition property all
+```
+Descrição
+transition-property: all, é usado para aplicar transição em todos os elementos quantificáveis disponíveis e que estejam sofrendo alteração
+
+```
+
+```
+```
+
 
 
 
