@@ -45,7 +45,12 @@ transition-property: all, é usado para aplicar transição em todos os elemento
 
 ```
 
+## O que é CSS animation?
+
 ```
+Descrição
+CSS Animations é uma ferramenta do CSS que permite criar animações sem a interação do usuário, onde elas podem acontecer de forma autônoma.
+
 ```
 
 
