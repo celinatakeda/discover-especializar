@@ -14,13 +14,14 @@
       background-color: #f00;
       position: relative;
 
-      /*animation-name: example-one;
-      */animation-duration: 4s;
+      /*animation-name: example-one;  
+      animation-duration: 4s;*/
 
       animation-name: example-two;
-      animation-duration: 10s;
+      animation-duration: 3s;
       animation-delay: 2s; /* Só faz delay no início*/ 
       animation-iteration-count: 2; /* Quantas vezes a animação vai funcionar. Tem a propriedade infinite.*/
+      animation-direction: alternate-reverse; /* reverse | alternate | alternate-reverse */
     }
 
     @keyframes example-one {
