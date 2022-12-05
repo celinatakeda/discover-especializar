@@ -1,16 +1,15 @@
 # Transition e Animation
-Seremos apresentados(as) ao CSS transition e animation, duas propriedades CSS que podemos usar para animaçòes levando nosso CSS ao próximo nível
+Transition e animation, duas propriedades CSS que podemos usar para animações levando nosso CSS ao próximo nível.
 
 
 ## O que é CSS transition?
-Descrição
+
 ```
 Quando temos alguma propriedade css que muda de valor em um hover, focus ou outro tipo de interação, podemos usar o transition para suavizar a mudança do ponto A ate o ponto B
 
 ```
-
 ## Transition property e duration
-Descrição
+
 ```
 transistion-property - é a propriedade css que queremos aplicar a transição
 
@@ -22,7 +21,6 @@ Somente valores quantificáveis podem ser animados. Isso quer dizer que não é 
 
 ## Transition timing functions
 ```
-Descrição
 ease - Início lento, rápido e final lento (este é o padrão)
 linear - Mesma velocidade do início ao fim
 easy-in - Início lento
