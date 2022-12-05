@@ -101,6 +101,5 @@ easy-in-out - Início e fim lentos
 ## Animation fill mode
 ### Descrição
 ```
-Animation fill mode: 
-  forwards, backwards, both, none
+Animation fill mode: forwards, backwards, both, none
 ```
