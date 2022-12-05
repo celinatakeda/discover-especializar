@@ -31,54 +31,54 @@ cubic-bezier(n,n,n,n) - Permite definir seus próprios valores em uma função c
 
 ```
 ## Transition delay
+### Descrição
 ```
-Descrição
 transition-delay é uma propriedade CSS que permite atrasar o inicio de uma transição em uma escala de segundos
 
 ```
 ## Transition property all
+### Descrição
 ```
-Descrição
 transition-property: all, é usado para aplicar transição em todos os elementos quantificáveis disponíveis e que estejam sofrendo alteração
 
 ```
 
 ## O que é CSS animation?
+### Descrição
 ```
-Descrição
 CSS Animations é uma ferramenta do CSS que permite criar animações sem a interação do usuário, onde elas podem acontecer de forma autônoma.
 
 ```
 ## Animation name e duration
+### Descrição
 ```
-Descrição
 animation-name - é o nome da animação criada com @keyframes
 
 animation-duration - é o tempo de duração da animação em uma escala de segundos
 
 ```
 ## Keyframes com porcentagens
+### Descrição
 ```
-Descrição
 Essa é uma forma útil quando queremos ter uma animação que execute vários comportamentos em sua duração, então podemos colocar o inicio da animação como 0% e o fim da animação como 100%, usando qualquer outro valor de porcentagem nos referimos ao momento da duração daquela animação em porcentagem e definimos seu comportamento.
 
 ```
 ### Animation delay
+### Descrição
 ```
-Descrição
 animation-delay é uma propriedade CSS que permite atrasar o inicio de uma animação em uma escala de segundos
 
 ```
 ### Animation iteration count
+### Descrição
 ```
-Descrição
 A propriedade animation-iteration-count defini quantas vezes a animação será repetida, podendo ser colocada como um numero, exemplo 3, fará a animação se repetir 3 vezes. Podemos colocar o valor como "infinite” o que vai fazer a animação se repetir sem fim.
 
 ```
 
 ### Animation direction
+### Descrição
 ```
-Descrição
 A propriedade animation-direction define a direção que a animação vai funcionar, podendo ser: normal | reverse | alternate | alternate-reverse.
 
 normal: começa pela primeira chave do @keyframes e vai ate a última, se o iteration count estiver setado, no momento de repetir, será também da primeira chave do @keyframes ate a ultima
@@ -89,8 +89,8 @@ alternate-reverse.: começa pela última chave do @keyframes e vai ate a primeir
 ```
 
 ### Animation timing function
+### Descrição
 ```
-Descrição
 ease - Início lento, rápido e final lento (este é o padrão)
 linear - Mesma velocidade do início ao fim
 easy-in - Início lento
@@ -99,7 +99,7 @@ easy-in-out - Início e fim lentos
 
 ```
 ## Animation fill mode
+### Descrição
 ```
-Descrição
 Animation fill mode
 ```
