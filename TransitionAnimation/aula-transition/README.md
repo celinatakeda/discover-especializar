@@ -3,15 +3,15 @@ Seremos apresentados(as) ao CSS transition e animation, duas propriedades CSS qu
 
 
 ## O que é CSS transition?
-```
 Descrição
+```
 Quando temos alguma propriedade css que muda de valor em um hover, focus ou outro tipo de interação, podemos usar o transition para suavizar a mudança do ponto A ate o ponto B
 
 ```
 
 ## Transition property e duration
-```
 Descrição
+```
 transistion-property - é a propriedade css que queremos aplicar a transição
 
 transition-duration - é o tempo de duração da transição

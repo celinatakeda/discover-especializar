@@ -1,4 +1,4 @@
-# discover-especializar
+# Discover Especializar
 Construindo APIs do zero no back-end e como consumir APIs já existentes utilizando Fetch e Axios. 
 
 Aprendendo conceitos importantes do Javascript, como async/await, promises e callbacks.
