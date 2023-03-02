@@ -6,9 +6,6 @@
   <a href="#memo-licença">Lincense</a>
 </p>
 
-
-
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -17,13 +14,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - NodeJS
 - Express
 
-
-
 ## 💻 Projeto
 
 Esse projeto foi construído para servir de apoio no estudo de consumo de APIs REST
-
-
 
 ## Como utilizar?
 
@@ -32,8 +25,6 @@ Esse projeto foi construído para servir de apoio no estudo de consumo de APIs R
 2. Rode o comando `npm install` para instalar as dependências
 
 3. E pra iniciar a aplicação, rode o comando `npm start` 
-
-
 
 ## :memo: Licença
 
