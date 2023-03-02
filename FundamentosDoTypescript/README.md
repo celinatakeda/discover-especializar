@@ -260,8 +260,5 @@ Exemplo de um arquivo tsconfig.json :
 
 ```
 
-```
-
-```
 ## Links Úteis
 https://www.typescriptlang.org/
