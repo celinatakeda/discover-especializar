@@ -1,4 +1,4 @@
-# Projeto lista de presença
+# Visual do projeto
 
 <p>
   <img src=".github/listaPresenca.png">
