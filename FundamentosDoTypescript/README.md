@@ -61,6 +61,7 @@ function showMessages(message: string) {
 }
 
 console.log(showMessages("Oi, João"))
+
 ```
 
 ## Union
@@ -75,6 +76,7 @@ printUserId(101);
 printUserId("101");
 
 // Dessa forma, podemos passar tanto number quanto string
+
 ```
 
 ---
@@ -121,6 +123,7 @@ type UserResponse = {
 }
 
 let userResponse = {} as UserResponse;
+
 ```
 
 ## Objetos
@@ -145,6 +148,7 @@ Resultado do log:
 [LOG]: "O eixo x é: 101"
 ------------------------
 [LOG]: "O eixo y é: 50"
+
 ```
 
 ## Intersecção de tipos
