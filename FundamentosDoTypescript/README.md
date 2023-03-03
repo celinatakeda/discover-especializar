@@ -17,6 +17,7 @@ Utilizamos o TypeScript Playground, ferramenta não necessita de nenhuma instala
 O TypeScript é sempre compilado para JavaScript, mas normalmente não estamos vendo isso. Observe os exemplos:
 
 O TypeScript nos ajuda a identificar cada tipo de variável ao invocá-las.
+
 ```
 
 ## Tipagem explícita
@@ -175,7 +176,6 @@ let info: PlayerInfo = {
     nickname: 'birobirobiro',
     level: 50
 }
-
 
 ```
 ## Interface
