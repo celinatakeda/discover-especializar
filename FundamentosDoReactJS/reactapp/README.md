@@ -1,5 +1,5 @@
 # Visual do projeto
 
-<p>
+<p align="center">
   <img src=".github/listaPresenca.png">
 </p>
