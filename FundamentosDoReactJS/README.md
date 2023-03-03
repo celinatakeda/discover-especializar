@@ -96,6 +96,3 @@ Para evitar esse tipo de erro, passamos a prop Key.
 O useEffect é executado automaticamente sempre que o componente é renderizado.
 
 ```
-
-
-
