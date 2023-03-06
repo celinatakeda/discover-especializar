@@ -46,11 +46,10 @@ users = ['Rodrigo', 'João'];
 ```
 
 ## Funções
-```
 Uma função pode ter ou não um retorno, quando ela não tem um retorno ela é do tipo void
 
 Dessa maneira, tipamos dessa forma no TypeScript:
-
+```
 function showMessages(message: string):void {
     console.log(message)
 }
@@ -65,9 +64,8 @@ console.log(showMessages("Oi, João"))
 ```
 
 ## Union
-```
 O Operador Union, representado pelo pipe | nos permite adicionar mais de um tipo na variável. Vamos ao exemplo:
-
+```
 function printUserId(id: number | string) {
     console.log(`O ID do usuário é: ${id}`);
 }
