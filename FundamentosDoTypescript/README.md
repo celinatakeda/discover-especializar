@@ -35,9 +35,8 @@ Esses são os tipos primitivos que podemos utilizar no TypeScript: boolean, numb
 
 ```
 ## Matrizes
-```
 Existem duas maneiras de tipar arrays no TypeScript, confira os exemplos:
-
+```
 let numbers: number[];
 numbers = [1,2,3,4,5,6];
 
