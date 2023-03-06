@@ -70,7 +70,6 @@ Descrição
 
 Pull Request (PR) é uma forma de você informar outras pessoas sobre as alterações das quais você commitou em uma branch, e agora é o momento de colocar essas alterações em outra branch.
 
-
 LGTM :D => para fazer comentários e D aparece os emojis
 
 Look Good To Me
