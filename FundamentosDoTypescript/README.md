@@ -79,14 +79,12 @@ printUserId("101");
 
 ---
 ## Generics
-```markdown
-
 O generic no TypeScript nos permite reutilizar uma determinada implementação de código, de forma tipada. Para representar um generic, nós declaramos ele dessa forma <T> (podendo ser utilizado qualquer outra letra, existem as convenções que podemos seguir:
 
 <S> → Representando State <T> → Representando Type <K> → Representando Key <V> → Representando Value <E> → Representando Element
 
 Exemplo de um trecho de código utilizando generics:
-
+```markdown
 function useState<T>() {
     let state: T;
 
@@ -109,11 +107,10 @@ newState.set(123);
 ```
 ---
 ## Type Assertions
-```
 Asserção de tipo normalmente é utilizado quando o TypeScript não sabe qual é a tipagem em um determinado objeto.
 
 Para contornarmos isso, podemos criar um type informando quais são as propriedades desse objeto.
-
+```
 type UserResponse = {
     id: number;
     name: string;
@@ -125,11 +122,10 @@ let userResponse = {} as UserResponse;
 ```
 
 ## Objetos
-```
 Nessa aula vamos aprendemos como criar tipagens utilizando objetos no TypeScript.
 
 Segue o exemplo:
-
+```
 type Point = {
     x: number;
     y: number;
