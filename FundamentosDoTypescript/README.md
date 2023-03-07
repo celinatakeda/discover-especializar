@@ -150,11 +150,10 @@ Resultado do log:
 ```
 
 ## Intersecção de tipos
-```
 A intersecção de tipos como o próprio nome já diz, podemos unir dois tipos e usar as suas propriedades dentro de um objeto.
 
 Segue o exemplo abaixo:
-
+```
 type User = {
     id: number,
     name: string,
@@ -176,11 +175,10 @@ let info: PlayerInfo = {
 
 ```
 ## Interface
-```
 Outra maneira de criar tipagens no TypeScript é utilizando a interface .
 
 Segue o exemplo:
-
+```
 interface User {
     id: number
     name: string,
