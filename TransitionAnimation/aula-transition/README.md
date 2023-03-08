@@ -3,10 +3,8 @@ Transition e animation, duas propriedades CSS que podemos usar para animações 
 
 
 ## O que é CSS transition?
-```
 Quando temos alguma propriedade css que muda de valor em um hover, focus ou outro tipo de interação, podemos usar o transition para suavizar a mudança do ponto A ate o ponto B
 
-```
 ## Transition property e duration
 ```
 transistion-property - é a propriedade css que queremos aplicar a transição
@@ -39,10 +37,8 @@ transition-property: all, é usado para aplicar transição em todos os elemento
 ```
 
 ## O que é CSS animation?
-```
 CSS Animations é uma ferramenta do CSS que permite criar animações sem a interação do usuário, onde elas podem acontecer de forma autônoma.
 
-```
 ## Animation name e duration
 ```
 animation-name - é o nome da animação criada com @keyframes
@@ -51,10 +47,8 @@ animation-duration - é o tempo de duração da animação em uma escala de segu
 
 ```
 ## Keyframes com porcentagens
-```
 Essa é uma forma útil quando queremos ter uma animação que execute vários comportamentos em sua duração, então podemos colocar o inicio da animação como 0% e o fim da animação como 100%, usando qualquer outro valor de porcentagem nos referimos ao momento da duração daquela animação em porcentagem e definimos seu comportamento.
 
-```
 ### Animation delay
 ```
 animation-delay é uma propriedade CSS que permite atrasar o inicio de uma animação em uma escala de segundos
