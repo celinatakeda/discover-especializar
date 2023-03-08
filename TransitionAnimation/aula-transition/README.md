@@ -29,6 +29,7 @@ cubic-bezier(n,n,n,n) - Permite definir seus próprios valores em uma função c
 transition-delay é uma propriedade CSS que permite atrasar o inicio de uma transição em uma escala de segundos
 
 ```
+
 ## Transition property all
 ```
 transition-property: all, é usado para aplicar transição em todos os elementos quantificáveis disponíveis e que estejam sofrendo alteração
@@ -45,6 +46,7 @@ animation-name - é o nome da animação criada com @keyframes
 animation-duration - é o tempo de duração da animação em uma escala de segundos
 
 ```
+
 ## Keyframes com porcentagens
 Essa é uma forma útil quando queremos ter uma animação que execute vários comportamentos em sua duração, então podemos colocar o inicio da animação como 0% e o fim da animação como 100%, usando qualquer outro valor de porcentagem nos referimos ao momento da duração daquela animação em porcentagem e definimos seu comportamento.
 
@@ -53,6 +55,7 @@ Essa é uma forma útil quando queremos ter uma animação que execute vários c
 animation-delay é uma propriedade CSS que permite atrasar o inicio de uma animação em uma escala de segundos
 
 ```
+
 ### Animation iteration count
 A propriedade animation-iteration-count defini quantas vezes a animação será repetida, podendo ser colocada como um numero, exemplo 3, fará a animação se repetir 3 vezes. Podemos colocar o valor como "infinite” o que vai fazer a animação se repetir sem fim.
 
@@ -78,6 +81,7 @@ easy-out - Final lento
 easy-in-out - Início e fim lentos
 
 ```
+
 ## Animation fill mode
 ```
 Animation fill mode: forwards, backwards, both, none
