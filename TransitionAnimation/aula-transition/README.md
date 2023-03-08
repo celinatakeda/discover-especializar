@@ -6,20 +6,23 @@ Transition e animation, duas propriedades CSS que podemos usar para animações 
 Quando temos alguma propriedade css que muda de valor em um hover, focus ou outro tipo de interação, podemos usar o transition para suavizar a mudança do ponto A ate o ponto B
 
 ## Transition property e duration
+```
 transistion-property - é a propriedade css que queremos aplicar a transição
 
 transition-duration - é o tempo de duração da transição
-
+```
 Somente valores quantificáveis podem ser animados. Isso quer dizer que não é possível fazer uma animação de display indo de none para block, mas sim de opacity de 0 para 1;
 
 
 ## Transition timing functions
+```
 ease - Início lento, rápido e final lento (este é o padrão)
 linear - Mesma velocidade do início ao fim
 easy-in - Início lento
 easy-out - Final lento
 easy-in-out - Início e fim lentos
 cubic-bezier(n,n,n,n) - Permite definir seus próprios valores em uma função cubic-bezier
+```
 
 ## Transition delay
 ```
@@ -51,18 +54,17 @@ animation-delay é uma propriedade CSS que permite atrasar o inicio de uma anima
 
 ```
 ### Animation iteration count
-```
 A propriedade animation-iteration-count defini quantas vezes a animação será repetida, podendo ser colocada como um numero, exemplo 3, fará a animação se repetir 3 vezes. Podemos colocar o valor como "infinite” o que vai fazer a animação se repetir sem fim.
 
-```
-
 ### Animation direction
-```
 A propriedade animation-direction define a direção que a animação vai funcionar, podendo ser: normal | reverse | alternate | alternate-reverse.
+ ```
+normal: começa pela primeira chave do @keyframes e vai ate a última, se o iteration count estiver setado, no momento de repetir, será também da primeira chave do @keyframes até a última.
 
-normal: começa pela primeira chave do @keyframes e vai ate a última, se o iteration count estiver setado, no momento de repetir, será também da primeira chave do @keyframes ate a ultima
 reverse: começa pela última chave do @keyframes e vai ate a primeira, se o iteration count estiver setado, no momento de repetir, será também da última chave do @keyframes ate a primeira.
+
 alternate: começa pela primeira chave do @keyframes e vai ate a última, se o iteration count estiver setado, no momento de repetir, será da última chave do @keyframes ate a primeira, e na próxima repetição volta a ser da primeira chave para a última e assim por diante alternando.
+
 alternate-reverse.: começa pela última chave do @keyframes e vai ate a primeira, se o iteration count estiver setado, no momento de repetir, será da primeira chave do @keyframes ate a última, e na próxima repetição volta a ser da última chave para a primeira e assim por diante alternando.
 
 ```
