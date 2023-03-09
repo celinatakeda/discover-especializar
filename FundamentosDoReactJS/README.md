@@ -23,6 +23,7 @@ npm create vite@latest reactapp --template react
 ```
 
 Após rodar o comando acima, será exibido a tela para escolher o framework que deseja utilizar.
+
 Selecione o react e a variant react
 
 
@@ -53,55 +54,31 @@ O arquivo main.jsx terá a função de renderizar o componente <App /> e inserir
 
 
 ## JSX
-```
 É uma extensão do JavaScript bem semelhante ao HTML. Basicamente ele é uma sintaxe que o ReactJS utiliza para que possamos criar as nossas interfaces de forma declarativa.
 
 O JSX utiliza funções dentro dos arquivos e o retorno dessas funções retornam tags HTML.
 
 Arquivo de extensão jsx tem uma função e um retorno, dentro do retorno da função vai ser um conteúdo html e esse conteúdo é o que vai ser mostrado na tela.
 
-```
-
 ## Fragment
-```
 Um padrão comum no React é que um componente pode retornar múltiplos elementos. Os Fragmentos (Fragment) permitem agrupar uma lista de filhos sem adicionar nós extras ao DOM.
 
-```
-
 ## Componentes
-```
 Componente nada mais do que um bloco de código reutilizável e independente. 
 
-```
-
 ## Propriedades
-```
 As propriedades dentro de um componente faz com que você possa passar valores diferentes para cada um deles.
 
-```
-
 ## Estado
-```
 O Hook useState permite ter variáveis em componentes funcionais. Você passa o estado inicial para esta função e ele retorna uma variável com o valor atual do estado (não necessariamente o estado inicial).
 
-```
-
 ## Imutabilidade
-```
 O conteúdo da variável não deve ser modificado e sim substituído.
 
-```
-
 ## KeyProp
-```
 Em uma listagem, normalmente utilizamos o map() do JavaScript para trazer todos os dados dessa lista. No React, precisamos passar uma propriedade key para que esse dado nunca se repita e evitar que erros desse tipo aconteçam.
 
 Para evitar esse tipo de erro, passamos a prop Key.
 
-```
-
 ## useEffect
-```
 O useEffect é executado automaticamente sempre que o componente é renderizado.
-
-```
