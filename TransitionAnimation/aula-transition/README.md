@@ -55,7 +55,6 @@ Essa é uma forma útil quando queremos ter uma animação que execute vários c
 animation-delay é uma propriedade CSS que permite atrasar o inicio de uma animação em uma escala de segundos
 
 ```
-
 ### Animation iteration count
 A propriedade animation-iteration-count defini quantas vezes a animação será repetida, podendo ser colocada como um numero, exemplo 3, fará a animação se repetir 3 vezes. Podemos colocar o valor como "infinite” o que vai fazer a animação se repetir sem fim.
 
@@ -71,7 +70,6 @@ alternate: começa pela primeira chave do @keyframes e vai ate a última, se o i
 alternate-reverse.: começa pela última chave do @keyframes e vai ate a primeira, se o iteration count estiver setado, no momento de repetir, será da primeira chave do @keyframes ate a última, e na próxima repetição volta a ser da última chave para a primeira e assim por diante alternando.
 
 ```
-
 ### Animation timing function
 ```
 ease - Início lento, rápido e final lento (este é o padrão)
@@ -81,8 +79,7 @@ easy-out - Final lento
 easy-in-out - Início e fim lentos
 
 ```
-
-## Animation fill mode
+### Animation fill mode
 ```
 Animation fill mode: forwards, backwards, both, none
 ```
